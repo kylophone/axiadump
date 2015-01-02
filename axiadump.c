@@ -69,6 +69,7 @@ int main(int argc, const char *argv[]) {
     frameCounter += ((packetLength - 12) / 6);
   }
 
+  close(sock);
   printf("Done!\n");
   fclose(file);
   return 0;
