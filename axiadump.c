@@ -70,7 +70,7 @@ int main(int argc, const char *argv[]) {
   }
 
   close(sock);
-  printf("Done!\n");
   fclose(file);
+  printf("Done!\n");
   return 0;
 }
