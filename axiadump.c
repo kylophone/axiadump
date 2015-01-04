@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
+#include <unistd.h> 
 
 int config_livewire_socket(char *multicastAddr)
 {
